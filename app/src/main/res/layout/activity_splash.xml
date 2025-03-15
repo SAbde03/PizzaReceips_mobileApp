@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    tools:context=".splash">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/icon"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="230dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza receipes"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make your pizza"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="508dp" />
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
